@@ -13,6 +13,8 @@ def main():
         case "2":
             from modules.save import saveParagraph
             saveParagraph()
+        case "3":
+            print("Goodbye!")
 
 if __name__ == "__main__":
     main()
